@@ -1,0 +1,176 @@
+body{
+    margin: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.head-container{
+    display: flex;
+    border: 1px solid #112959;
+    background: #112959;
+    flex: 1;
+}
+
+.head-item {
+    color: white;
+    padding: 5px;
+    margin-left: 10%;
+}
+
+.head-item-list{
+    text-decoration: none;
+    list-style: none;
+    color:white;
+    
+    margin: 10px;
+    padding-right: 20px;
+
+    justify-content: end;
+    align-items: center;
+}
+
+.container{
+    max-width: 70%;
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+}
+
+.flex-turismo{
+    align-self: center;
+}
+
+.title-flex{
+    font-size: 50px;
+    font-weight: 800;
+    margin: 5px;
+}
+
+.sub-title-flex{
+    font-size: 20px;
+    margin-bottom: 40px;
+    margin-top: 0px;
+}
+
+.bt-blue{
+    color: white;
+    background: #112959;
+    text-decoration: none;
+    font-weight: 500;
+    padding: 10px;
+    border-radius: 50px;
+    padding-left: 25px;
+    padding-right:25px;
+}
+
+.about{
+    font-size: 35px;
+}
+
+.bc-servi{
+    display: flex;
+    margin: auto;
+    background: #112959;
+
+    padding: 30x;
+    margin: 0;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.bc-servi-item{
+    display: flex;
+    padding: 30px;
+    margin: 0;
+    justify-content: space-between;
+    width: 70%;
+    margin: auto;
+
+}
+
+.servi{
+    color: white;
+    text-align: center;
+}
+
+.top {
+    font-size: 30px;
+    align-self: flex-start;
+    padding: 0;    
+}
+
+.item{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.bt-white{
+    background: white;
+    color: #112959;
+    text-decoration: none;
+    border-radius: 50px;
+    padding: 10px 25px 10px 25px;
+    margin: auto;
+}
+
+.container-plans{
+    max-width: 70%;
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container-plans-1{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.plans-li{
+    text-align: center;
+}
+
+.plans{
+    display: flex;
+    flex-direction: column;
+    border: solid 5px #112959;
+    border-radius: 10px;
+    align-self: flex-end;
+    padding: 10px;
+    justify-content: space-between;
+}
+
+.plans-1{
+    margin-bottom: 50px;
+    
+}
+
+.plans-2{
+    margin-bottom: 100px;
+    
+}
+
+.plans-3{
+    margin-bottom: 150px;
+    
+}
+
+.bt-azul{
+    background: #112959;
+    color: white;
+    text-decoration: none;
+    border-radius: 50px;
+    padding: 10px 25px 10px 25px;
+    margin: auto;
+}
+
+.footer{
+    background-color: #112959;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    margin-top: 50px;
+    padding: 0 100px 0 100px;
+}
